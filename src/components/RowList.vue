@@ -28,14 +28,6 @@ export default {
   components: {
     OneItem,
   },
-  watch: {
-    dataa: {
-      handler() {
-        
-        console.log("from RowData", this.dataa); // log the data if it changed
-      },
-    },
-  },
 };
 </script>
 

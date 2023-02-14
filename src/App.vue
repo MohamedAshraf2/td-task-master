@@ -51,7 +51,6 @@ export default {
   methods: {
     showData: function () {
       this.showFlag = !this.showFlag;
-      console.log("The Shown Flag:", this.showFlag);
     },
   },
 };
